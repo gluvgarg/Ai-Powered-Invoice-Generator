@@ -12,7 +12,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const { user, logout } = useAuth();
-  const isAuthenticated = !!user;
+  const isAuthenticated = !user;
 
   const navigate = useNavigate();
 

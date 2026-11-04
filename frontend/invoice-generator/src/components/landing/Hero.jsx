@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import HERO_IMG from "../../assets/hero-img.png"
+import HERO_IMG from "../../assets/new_hero_img.png"
 
 const Hero = () => {
 
@@ -30,7 +30,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="mt-12 relative mx-w-5xl mx-auto">
-          <img src="{HERO_IMG}" alt="Invoice App Screenshot" className="rounded-2xl shadow-2xl shadow-gray-300 border-4 border-gray-200/20"/>
+          <img src={HERO_IMG} alt="Invoice App Screenshot" className="rounded-2xl shadow-2xl shadow-gray-300 border-4 border-gray-200/20"/>
         </div>
       </div>
      </section>
